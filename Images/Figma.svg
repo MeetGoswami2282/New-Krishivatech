@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_18658" data-name="Path 18658" d="M2,24.438C2,16.584,2,12.657,3.528,9.657A14.024,14.024,0,0,1,9.657,3.528C12.657,2,16.584,2,24.438,2H41.562c7.854,0,11.781,0,14.781,1.528a14.024,14.024,0,0,1,6.129,6.129C64,12.657,64,16.584,64,24.438V41.562c0,7.854,0,11.781-1.529,14.781a14.024,14.024,0,0,1-6.129,6.129C53.343,64,49.416,64,41.562,64H24.438c-7.854,0-11.781,0-14.781-1.529a14.024,14.024,0,0,1-6.129-6.129C2,53.343,2,49.416,2,41.562Z" transform="translate(-2 -2)" fill="#300"/>
+    </clipPath>
+  </defs>
+  <g id="adobe-illustrator-svgrepo-com" transform="translate(-2 -2)">
+    <g id="Mask_Group_3647" data-name="Mask Group 3647" transform="translate(2 2)" clip-path="url(#clip-path)">
+      <g id="figma-svgrepo-com" transform="translate(10.333 0)">
+        <path id="Path_18661" data-name="Path 18661" d="M40,40.333A10.333,10.333,0,1,1,50.333,50.667,10.333,10.333,0,0,1,40,40.333Z" transform="translate(-19.333 -9.333)" fill="#1abcfe" fill-rule="evenodd"/>
+        <path id="Path_18662" data-name="Path 18662" d="M20,60.333A10.333,10.333,0,0,1,30.333,50H40.667V60.333a10.333,10.333,0,1,1-20.667,0Z" transform="translate(-20 -8.667)" fill="#0acf83" fill-rule="evenodd"/>
+        <path id="Path_18663" data-name="Path 18663" d="M40,10V30.667H50.333a10.333,10.333,0,1,0,0-20.667Z" transform="translate(-19.333 -10)" fill="#ff7262" fill-rule="evenodd"/>
+        <path id="Path_18664" data-name="Path 18664" d="M20,20.333A10.333,10.333,0,0,0,30.333,30.667H40.667V10H30.333A10.333,10.333,0,0,0,20,20.333Z" transform="translate(-20 -10)" fill="#f24e1e" fill-rule="evenodd"/>
+        <path id="Path_18665" data-name="Path 18665" d="M20,40.333A10.333,10.333,0,0,0,30.333,50.667H40.667V30H30.333A10.333,10.333,0,0,0,20,40.333Z" transform="translate(-20 -9.333)" fill="#a259ff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26.982" height="60" viewBox="0 0 26.982 60">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-176.791" y1="34.056" x2="-179.164" y2="34.059" gradientUnits="objectBoundingBox">
+      <stop offset="0.231" stop-color="#999875"/>
+      <stop offset="0.563" stop-color="#9b9977"/>
+      <stop offset="0.683" stop-color="#a09f7e"/>
+      <stop offset="0.768" stop-color="#a9a889"/>
+      <stop offset="0.837" stop-color="#b7b69a"/>
+      <stop offset="0.896" stop-color="#c9c7b0"/>
+      <stop offset="0.948" stop-color="#deddcb"/>
+      <stop offset="0.994" stop-color="#f8f6eb"/>
+      <stop offset="1" stop-color="#fbf9ef"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-102.798" y1="33.861" x2="-104.782" y2="34.771" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#48a547"/>
+      <stop offset="1" stop-color="#3f9143"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-99.993" y1="34.087" x2="-101.376" y2="33.84" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#41a247"/>
+      <stop offset="0.352" stop-color="#4ba74b"/>
+      <stop offset="0.956" stop-color="#67b554"/>
+      <stop offset="1" stop-color="#69b655"/>
+    </linearGradient>
+  </defs>
+  <g id="mongo-svgrepo-com" transform="translate(-9.705 -2)">
+    <path id="Path_65456" data-name="Path 65456" d="M19.29,57.976l-1.609-.534s.214-8.143-2.732-8.715c-1.929-2.246.285-95.874,7.335-.319a5.811,5.811,0,0,0-2.856,3.264,30.214,30.214,0,0,0-.137,6.3Z" transform="translate(5.233 4.024)" fill="url(#linear-gradient)"/>
+    <path id="Path_65457" data-name="Path 65457" d="M18.341,54.05A28.335,28.335,0,0,0,29.056,25.711C25.906,11.814,18.446,7.246,17.643,5.5a20.982,20.982,0,0,1-1.768-3.429l.594,38.719S15.239,52.625,18.341,54.05Z" transform="translate(7.051 0.083)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_65458" data-name="Path 65458" d="M22.095,54.648S8.978,45.714,9.737,29.911A33.3,33.3,0,0,1,21.563,4.951,3.7,3.7,0,0,0,22.864,2c.816,1.757.684,26.235.769,29.1C23.965,42.234,23.014,52.546,22.095,54.648Z" transform="translate(0 0)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>
