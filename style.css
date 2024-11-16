@@ -10,12 +10,15 @@
     
 }
 
-.inter-tight{
-  font-family: "Inter Tight", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
+body {
+  font-family: 'Mona Sans', sans-serif;
 }
+
+.hero h1 {
+  font-family: 'Mona Sans', sans-serif;
+  font-weight: 700; /* Adjust weight as needed */
+}
+/* Apply the font to other elements as needed */
 
 
 
@@ -485,15 +488,11 @@ ul p span {
   
 
 /* WHY CHOOSE US SECTION */
-
-.containeru {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  /* font-family: "Poppins", sans-serif; */
+.inter-tight-uniquifier {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .contentu {

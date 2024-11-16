@@ -566,10 +566,6 @@ video {
   border-width: 0;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -601,10 +597,6 @@ video {
 
 .top-4 {
   top: 1rem;
-}
-
-.bottom-20 {
-  bottom: 5rem;
 }
 
 .-z-10 {
@@ -723,10 +715,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .size-14 {
   width: 3.5rem;
   height: 3.5rem;
@@ -768,14 +756,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-40 {
-  height: 10rem;
 }
 
 .w-4 {
@@ -964,6 +944,11 @@ video {
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
 }
 
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -972,21 +957,6 @@ video {
 .bg-zinc-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-
-.bg-slate-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
-}
-
-.bg-orange-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
-}
-
-.bg-orange-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1225,10 +1195,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.filter {
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -1269,12 +1235,17 @@ video {
     font-family: "Poppins", sans-serif; */
 }
 
-.inter-tight{
-  font-family: "Inter Tight", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
+body {
+  font-family: 'Mona Sans', sans-serif;
 }
+
+.hero h1 {
+  font-family: 'Mona Sans', sans-serif;
+  font-weight: 700;
+  /* Adjust weight as needed */
+}
+
+/* Apply the font to other elements as needed */
 
 /* MAIN BUTTON */
 
@@ -1750,14 +1721,11 @@ ul p span {
 
 /* WHY CHOOSE US SECTION */
 
-.containeru {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-  /* font-family: "Poppins", sans-serif; */
+.inter-tight-uniquifier {
+  font-family: "Inter Tight", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 .contentu {
