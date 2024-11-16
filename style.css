@@ -211,6 +211,25 @@ a{
     }
   }
 
+
+
+  /* OUR SERVICES SECTION */
+
+  .offering{
+    height: 300px;
+                padding: 38px !important;
+                /* width: 350px; */
+                /* height: 400px; */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                border-radius: 20px;
+                background-color: 239, 239, 239;
+  }
+  .offering h1{
+  color: #E96F1C;
+   font-weight: 700;
+    font-size: 20px
+  }
+
 /* TECHNOLOGY STACK  */
 .icon-grid {
 display: flex;

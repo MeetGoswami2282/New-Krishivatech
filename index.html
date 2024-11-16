@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./output.css">
     <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -152,7 +152,11 @@
     <section class="relative overflow-hidden py-32 mt-5">
       <div class="containerq">
         <div class="absolute inset-x-0 top-0 z-10 flex size-full items-center justify-center opacity-800 w-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1125">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1125" style="border: 1px solid red;
+          /* margin-top: -109px; */
+          position: sticky;
+          top: 0;
+          margin-bottom: 239px;">
             <mask id="b" width="2000" height="1125" x="0" y="0">
               <path fill="url(#a)" d="M0 0h2000v1125H0z"></path>
             </mask>
@@ -524,13 +528,7 @@
         <div class="containerse px-6 py-10 mx-auto">
       
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-8 md:grid-cols-2 xl:grid-cols-3">
-                <div class="space-y-3  border-2 p-4 rounded-md" style="height: 300px;
-                padding: 30px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;">
+                <div class="offering space-y-3  border-2 p-4 rounded-xl">
                   <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: #000;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -542,25 +540,17 @@
                     </h1>
       
                     <p style="color: #6C7A87;">
-                      Experience the power of tailor-made solutions with our custom software development services
-
-                    </p>
+                      We provide end-to-end custom software development services, delivering scalable, innovative, 
+                    solutions to businesses </p>
       
-                    <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
+                    <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
       
-                      <span class="mx-1">read more</span>
+                      <span class="mx-1" style="  font-family: 'Mona Sans', sans-serif;">read more</span>
                       <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
+                  </a> -->
                 </div>
       
-                <div class="space-y-3  border-2 p-4 rounded-xl" style="height: 300px;
-                padding: 38px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;
-                background-color: ">
+                <div class="offering space-y-3  border-2 p-4 rounded-xl">
                   <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: black;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -568,12 +558,10 @@
                   
                 </span>
       
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700"  style="color: #E96F1C; font-weight: 700;
-    font-size: 22px">Web Development</h1>
+                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700">Web Development</h1>
       
                     <p  style="color: #6C7A87;">
-                      Transform your digital presence with our cutting-edge web development solutions, tailored to drive growth  web development solutions, tailored to drive growth .</p>
-      
+                      We provide comprehensive web development services, delivering tailored, high-performance, and user-friendly websites that align with your business      
              
                     <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500"> -->
       
@@ -582,13 +570,7 @@
                   </a>
                 </div>
       
-                <div class="space-y-3  border-2 p-4 rounded-xl" style="height: 300px;
-                padding: 30px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;">
+                <div class="offering space-y-3  border-2 p-4 rounded-xl">
                   <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: #000;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -596,27 +578,19 @@
                   
                 </span>
       
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700">UI/UX Design</h1>
+                    <h1 class="text-xl font-semibold ">UI/UX Design</h1>
       
                     <p  style="color: #6C7A87">
-                      Step into the real of seamless user interaction and captivating design with our UI/UX Design service
-
-                    </p>
+                      Our UI/UX design service focuses on creating visually appealing, highly functional, and intuitive user interfaces that prioritize user experience</p>
       
-                    <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
+                    <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
       
                       <span class="mx-1">read more</span>
                       <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
+                  </a> -->
                 </div>
       
-                <div class="space-y-3  border-2 p-4 rounded-xl" style="height: 300px;
-                padding: 30px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;">
+                <div class="offering space-y-3  border-2 p-4 rounded-xl">
                   <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: #000;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -624,29 +598,21 @@
                   
                 </span>
       
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700">Mobile App Development
+                    <h1 class="text-xl font-semibold">Mobile App Development
                     </h1>
       
                     <p  style="color: #6C7A87;">
-                      Our expertise lies in crafting innovative mobile apps to enhance your digital presence and user experience
-
-
+                      Our mobile app development service offers end-to-end solutions, creating innovative, and scalable, mobile applications tailored to your business needs
                     </p>
       
-                    <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
+                    <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
       
                       <span class="mx-1">read more</span>
                       <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
+                  </a> -->
                 </div>
       
-                <div class="space-y-3 border-2 p-4 rounded-xl" style="height: 300px;
-                padding: 30px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;">
+                <div class=" offering space-y-3 border-2 p-4 rounded-xl">
                     <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: #000;">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -654,28 +620,21 @@
                       
                     </span>
       
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700">Website Design
+                    <h1 class="text-xl font-semibold">Website Design
                     </h1>
       
                     <p  style="color: #6C7A87;">
-                      Our website design services are dedicated to creating stunning websites that leave a lasting impression
-
+                      Our website design service combines creativity, functionality, and cutting-edge technology to build visually stunning, responsive, and user-friendly websites
                     </p>
       
-                    <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
+                    <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
       
                       <span class="mx-1">read more</span>
                       <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                  </a>
+                  </a> -->
                 </div>
       
-                <div class="space-y-3  border-2 p-4 rounded-XL" style="height: 300px;
-                padding: 30px;
-                /* width: 350px; */
-                /* height: 400px; */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-                border-radius: 20px;
-                background-color: 239, 239, 239;">
+                <div class=" offering space-y-3  border-2 p-4 rounded-XL">
                   <span class="inline-block p-3  rounded-full dark:text-white dark:bg-orange-100" style="background-color: #000;">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="color: #ffffff;">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" />
@@ -683,18 +642,17 @@
                   
                 </span>
       
-                    <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-gray-700 ">Digital Marketing
+                    <h1 class="text-xl font-semibold  ">Digital Marketing
                     </h1>
       
                     <p class="text-gray-500 dark:text-gray-300" style="color: #6C7A87;">
-                      In the fast digital landscape, having a robust digital marketing strategy is essential for businesses
-                    </p>
+                      Our digital marketing service offers a comprehensive suite of strategies, including SEO, social media management, content creation.                    </p>
       
-                    <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
+                    <!-- <a href="#" class="inline-flex items-center -mx-1 text-sm text-orange-500 capitalize transition-colors duration-300 transform hover:underline hover:text-orange-600 dark:hover:text-ornage-500">
       
                         <span class="mx-1">read more</span>
                         <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                    </a>
+                    </a> -->
                 </div>
             </div>
         </div>
