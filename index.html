@@ -13,9 +13,6 @@
   </head>
 
 
-<script>
-
-  </script>
 
    <!-- NAVIGATION BAR -->
 
@@ -33,16 +30,21 @@
     <!-- <button class="btn btn-3 hover-border-3">
       <span>Get in Touch</span>
     </button>  -->
-    <a class="font-semibold rounded-lg text-white bg-orange-500 py-4 px-9 hover:bg-opacity-90" href="#">Get in Touch</a>
-
- 
+    <!-- <a class="font-semibold rounded-lg text-white bg-orange-500 py-4 px-9 hover:bg-opacity-90" href="#">Get in Touch</a> -->
+    <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">Let's Connect</button>
 
 </nav>
+<style>
+.get-started:hover{
+   
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(224, 129, 14, 0.4);
+  color: #fff;
+  /* transform: translateY(-7px); */
+}
 
 
-
-
-
+</style>
 
 
 
@@ -148,11 +150,13 @@
     <!-- HERO SECTION COMPLETEED -->
 
 
+<div class="meeys mx-auto xl:w-10/12">
 
-    <section class="relative overflow-hidden py-32 mt-5">
+
+    <section class="relative overflow-hidden py-32 mt-4">
       <div class="containerq">
         <div class="absolute inset-x-0 top-0 z-10 flex size-full items-center justify-center opacity-800 w-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1125" style="border: 1px solid red;
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1125" style="
           /* margin-top: -109px; */
           position: sticky;
           top: 0;
@@ -383,9 +387,13 @@
               </p>
             </div>
             <div class="mt-4 flex justify-center gap-2">
-              <button
+              <!-- <button
                 class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-zinc-900 text-white hover:bg-zinc-900/90 h-10 px-4 py-2">
-                Get Started</button><button
+                Get Started</button> -->
+                <!-- <a class="font-semibold rounded-lg text-white bg-orange-500 py-4 px-9 hover:bg-opacity-90" href="#">Schedule a Meeting</a> -->
+                <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">Schedule a Meeting</button>
+
+                <!-- <button
                 class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-white hover:bg-zinc-100 hover:text-zinc-800 h-10 px-4 py-2">
                 Learn more
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -394,10 +402,10 @@
                   <path d="M15 3h6v6"></path>
                   <path d="M10 14 21 3"></path>
                   <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                </svg>
+                </svg> -->
               </button>
             </div>
-            <div class="mt-20 flex flex-col items-center gap-4">
+            <!-- <div class="mt-20 flex flex-col items-center gap-4">
               <p class="text-center: text-zinc-600 lg:text-left">
                 Built with open-source technologies
               </p>
@@ -416,7 +424,7 @@
                     src="Images/Java.svg" alt="company logo"
                     class="h-4 saturate-0 transition-all group-hover:saturate-100" /></a>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -522,10 +530,10 @@
        </div> -->
 
        <!-- SERVICE SECTION -->
-       <h1 class="text-4xl font-bold text-center text-gray-800 mt-20">Our <span style="color: #E96F1C;">Offerings</span></h1>
+       <h1 class="text-5xl font-bold text-center text-gray-800 mt-20">Our <span style="color: #E96F1C;">Offerings</span></h1>
 
-       <section class=" xl:w-10/12  mx-auto">
-        <div class="containerse px-6 py-10 mx-auto">
+       <section style="margin-top: 70px;">
+        <div class="containerse">
       
             <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-8 md:grid-cols-2 xl:grid-cols-3">
                 <div class="offering space-y-3  border-2 p-4 rounded-xl">
@@ -660,6 +668,10 @@
 
          <!-- SERVICE SECTION COMPLETED-->
 
+      
+
+
+         
          <!-- <div class="cards-container mt-32 xl:w-10/12  mx-auto">
           <div class="card dark">
             <div class="icon orange">
@@ -774,202 +786,190 @@
        
 
 
-<!-- TECHNOLOGY STACK SECTION -->
-<h1 class="text-4xl font-bold text-center text-gray-800 mt-20">The Tech That <span style="color: #E96F1C;">Powers Our Solutions</span></h1>
-
-         <div class="icon-grid mx-auto xl:w-10/12 mt-20">
-    <div class="icon-item">
-      <img src="Images/HTML.svg" alt="Icon 1">
-    </div>
-    <div class="icon-item">
-      <img src="Images/CSS.svg" alt="Icon 2">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Bootstrap.svg" alt="Icon 3">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Tailwind-CSS.svg" alt="Icon 4">
-    </div>
-    <!-- <div class="icon-item">
-      <img src="/Images/Materilize-CSS.svg" alt="Icon 4">
-    </div> -->
-    <div class="icon-item">
-      <img src="Images/Javascript.svg" alt="Icon 5">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Angular.svg" alt="Icon 6">
-    </div>
-    <div class="icon-item">
-      <img src="Images/React - Copy.png" alt="Icon 7">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Node-JS.svg" alt="Icon 8">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Typescript.svg" alt="Icon 9">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Vue-JS.svg" alt="Icon 9">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Mongo-DB.svg" alt="Icon 10">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Redis.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Firebase.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Oracle.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/MY-SQL.svg" alt="Icon 11">
-    </div>
-    
-    <div class="icon-item">
-      <img src="Images/flutter 1.png" alt="Icon 12">
-    </div>
-    <div class="icon-item">
-      <img src="Images/kotlin.png" alt="Icon 13">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Ionic.png" alt="Icon 14">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Java.svg" alt="Icon 15">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Dot-net.svg" alt="Icon 15">
-    </div>
-    <div class="icon-item">
-      <img src="Images/PHP.svg" alt="Icon 15">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Laravel.svg" alt="Icon 15">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Api-Maker.svg" alt="Icon 15">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Figma.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/XD.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/Photoshop.svg" alt="Icon 11">
-    </div>
-    <div class="icon-item">
-      <img src="Images/llustrator.svg" alt="Icon 11">
-    </div>
-  </div>
-  <div class="mt-40 slider-container">
-    <div class="slider-track" style="background-color: #252525; color: rgb(237,255,121); padding: 10px;">
-      <div class="slider-item">
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-      </div>
-      <div class="slider-item">
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-        <span>START YOUR PROJECT</span>
-        <span class="star">✦</span>
-      </div>
-    </div>
-  </div>
 
 <!-- PORTFOLIO SECTION -->
+<sections class=" mx-auto xl:w-10/12 mt-32 ezy__portfolio16   text-zinc-900 dark:text-white mt-32 ">
+  <div class="containeraa  mx-auto">
+    <div class="flex justify-center items-center max-w-7xl mx-auto text-center">
+      <div class="w-2/3">
+        <h1 class="text-5xl font-bold text-center text-gray-800 mt-32">Our Portfolio  <span style="color: #E96F1C;">of Excellence</span></h1>
+      </div>
+    </div>
+    <div class="flex flex-col gap-6 mx-auto" style="margin-top: 70px;">
+      <!-- card item -->
+      <div class="grid grid-cols-12 bg-blue-100 bg-opacity-30 rounded-xl p-6 md:p-12">
+        <div class="col-span-12 lg:col-span-5">
+          <div class="bg-blue-100 bg-opacity-75 flex justify-center items-center p-6 rounded-xl">
+            <img
+              src="Images/bynfor-1.jpg"
+              alt=""
+              class="max-w-50 w-50 h-auto"
+            />
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-7">
+          <div class="mt-6 lg:mt-0 lg:px-12 text-center lg:text-start h-full flex flex-col justify-center">
+            <h5 class="text-3xl md:text-[44px] leading-tight font-bold mb-4 text-black">
+              Bynfor Auctions [USA]
 
-<main> 
-  <div class="slider"> 
-    <div class="slider-content">
-      <!-- item 1 -->
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"></div>
+            </h5>
+            <p class="leading-loose opacity-80 mb-6 lg:pr-12">
+              Buy & sell everything on Bynfor, the world's newest online auction marketplace. Top brands, low prices items & cheap shipping services.
+
+
+            </p>
+            <div>
+            
+              <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">View Project</button>
+
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <!-- item 2 -->
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/10875180/pexels-photo-10875180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"></div>
+      <!-- card item -->
+      <div class="grid grid-cols-12 bg-orange-100 bg-opacity-30 rounded-xl p-6 md:p-12">
+        <div class="col-span-12 lg:col-span-5 lg:order-2">
+          <div class="bg-orange-100 bg-opacity-75 flex justify-center items-center p-6 rounded-xl">
+            <img
+              src="Images/gsclfcl-1.png"
+              alt=""
+              class="max-w-full w-full h-auto"
+            />
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-7">
+          <div class="mt-6 lg:mt-0 lg:px-12 text-center lg:text-start h-full flex flex-col justify-center">
+            <h5 class="text-3xl md:text-[44px] leading-tight font-bold mb-4 text-black" >Slep Social Media apps Exploration</h5>
+            <p class="leading-loose opacity-80 mb-6 lg:pr-12">
+              It’s easier to reach your savings goals when you have the right savings account. Take a look and find
+              the right one for you!Assumenda non repellendus distinctio nihil dicta sapiente, quibusdam maiores,
+              illum at, aliquid blanditiis eligendi qui.
+            </p>
+            <div>
+              <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">View Project</button>
+
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <!-- item 3 -->     
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/4001296/pexels-photo-4001296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
+      <!-- card item -->
+       <div class="grid grid-cols-12  bg-opacity-30 rounded-xl p-6 md:p-12 bg-green-100">
+        <div class="col-span-12 lg:col-span-5">
+          <div class="bg-green-200 bg-opacity-75 flex justify-center items-center p-6 rounded-xl ">
+            <img
+              src="Images/medikus-1.jpg"
+              alt=""
+              class="max-w-50 w-50 h-auto"
+            />
+          </div>
+        </div>
+        <div class="col-span-12 lg:col-span-7">
+          <div class="mt-6 lg:mt-0 lg:px-12 text-center lg:text-start h-full flex flex-col justify-center">
+            <h5 class="text-3xl md:text-[44px] leading-tight font-bold mb-4 text-black">
+              Medikus
+
+
+            </h5>
+            <p class="leading-loose opacity-80 mb-6 lg:pr-12">
+              Passionate to be the best, we take pride in what we do and strive to deliver products with 0% defects. One can count upon us for quality pharma.
+
+
+
+            </p>
+            <div>
+            
+              <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">View Project</button>
+
+            </div>
+          </div>
+        </div>
       </div>
-      
-      <!-- item 4 -->    
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/3432929/pexels-photo-3432929.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"></div>
-      </div>
-      
-      <!-- item 5 -->  
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/1056251/pexels-photo-1056251.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"></div>
-      </div>
-      
-      <!-- item 6 -->
-      <div class="slider-item">
-        <div class="slider-item-img" data-img="https://images.pexels.com/photos/10875180/pexels-photo-10875180.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"></div>
-      </div>
-    </div> 
+    </div>
+    
   </div>
-</main>
+<div class="flex justify-center mt-12">
+  <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">View All Works</button>
+</div>
+</sections>
+
 <!-- COMPLETED PORTFOLIO SECTION -->
  
 
  <!-- MILESTONE SECTION -->
 
-<div class="containeru  mx-auto xl:w-10/12 mt-10">
-  <div class="contentu">
-      <h1 class="text-3xl">We have many users all over the <span>world</span></h1>
-      <p>Our industry and tech-driven expertise spans an exclusive perspective we bring to our clients, partners, and teams. With a focus on modernization, collaboration, and superior quality work.</p>
+ <section class="ezy__numbers3  bg-white  text-black dark:text-white">
+  <div class="containersss px-4">
+    <!-- heading -->
+    <h1 class="text-5xl font-bold text-center text-gray-800 mt-32">Why Choose <span style="color: #E96F1C;">Us</span></h1>
 
-      <div class="stats">
-          <div class="stat-item">
-              <h2 class="count" data-count="25">0</h2>
-              <p>IT Experts</p>
+    <div class="grid grid-cols-12 justify-between" style="margin-top: 70px;">
+      <div class="col-span-12 lg:col-span-6">
+        <!-- <div class="w-full">
+          <h1 class="text-3xl mb-4 text-center left-0 mx-auto">Some Important Numbers</h1>
+          <p class="text-lg opacity-80 mb-12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod perferendis nihil cupiditate
+            aliquid qui exercitationem labore veritatis eaque nobis libero earum.
+          </p>
+        </div> -->
+
+        <!-- cards -->
+        <div class="flex flex-col sm:flex-row gap-6" style="margin-top: 70px;">
+          <!-- card starts -->
+          <div class="mb-6">
+            <h3 class="font-black text-lg md:text-[45px] text-black mb-4" style="color: #E96F1C;">50+</h3>
+            <h5 class="text-xl font-bold mb-2  text-black">Project Completed</h5>
+            <p class="mb-0">Successfully completed 50+ projects, show our company's expertise  </p>
           </div>
-          <div class="stat-item">
-              <h2 class="count" data-count="7">0</h2>
-              <p>Country Clients</p>
+          <!-- card ends -->
+          <!-- card starts -->
+          <div class="mb-6">
+            <h3 class="font-black text-xl md:text-[45px] mb-4  text-black" style="color: #E96F1C;">7+</h3>
+            <h5 class="text-xl font-bold mb-2  text-black">Countries Clints</h5>
+            <p class="mb-0">It’s no secret that the digital. From exciting startups to global brands.</p>
           </div>
-          <div class="stat-item">
-              <h2 class="count" data-count="50">0</h2>
-              <p>Project Completed</p>
+          <!-- card ends -->
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-6 mt-12">
+          <!-- card starts -->
+          <div class="mb-6">
+            <h3 class="font-black text-lg md:text-[45px] mb-4  text-black" style="color: #E96F1C;">25+</h3>
+            <h5 class="text-xl font-bold mb-2  text-black" >IT Experts</h5>
+            <p class="mb-0">Talented IT Experts Driving Digital Excellence at Krishivatech  </p>
           </div>
+
+          <!-- card ends -->
+          <!-- card starts -->
+          <div class="mb-6">
+            <h3 class="font-black text-lg md:text-[45px] mb-4  text-black" style="color: #E96F1C;">100%</h3>
+            <h5 class="text-xl font-bold mb-2  text-black">Client Satisfaction  </h5>
+            <p class="mb-0">Exceptional Client happiness, A Testament to our Dedication </p>
+          </div>
+          <!-- card ends -->
+        </div>
       </div>
+      <div class="col-span-12 lg:col-span-4 lg:col-start-8">
+        <div class="flex justify-center items-end h-full">
+          <img
+            src="https://cdn.easyfrontend.com/pictures/featured/three.png"
+            alt=""
+            class="max-w-full h-auto rounded-lg mt-12 md:mt-0"
+          />
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="image-containeru">
-      <img src="Images/map.png" alt="World map">
-  </div>
-</div> 
+</section>
 <!-- MILESTONE SECTION COMPLETED -->
 
 
 
 <!-- TESTIMONIAL SECTION -->
 
-  <section class="bg-white  xl:w-10/12 mt-10 mx-auto">
-  <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-    <h2 class="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-      Read trusted reviews from our customers
-    </h2>
-
-    <div class="mt-8 [column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8">
+  <section class="bg-white mt-52">
+  <div class="">
+    <h1 class="text-5xl font-bold text-center text-gray-800 mt-32">Words from <span style="color: #E96F1C;">Our Clients</span></h1>
+    <div class="[column-fill:_balance] sm:columns-2 sm:gap-6 lg:columns-3 lg:gap-8" style="margin-top: 70px;">
       <div class="mb-8 sm:break-inside-avoid">
         <blockquote class="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
           <div class="flex items-center gap-4">
@@ -1190,46 +1190,37 @@
 
 
 
-<section class="relative z-10 overflow-hidden bg-indigo-600 py-16 px-8 mt-40  mx-auto xl:w-10/12 mt-20 rounded-3xl h-30" style="background-color: #eb7d33 !important;">
+<section class="relative z-10  overflow-hidden py-16 px-8 mt-32  mx-auto xl:w-10/12 mt-20 rounded-3xl h-30" style="background-color: #252525 !important; width: 100%;">
   <div class="containessr">
       <div class="-mx-4  flex-wrap items-center">
           <div class="jkl w-full px-4 lg:w-1/2 flex justify-center" style="width: 100% !important;">
               <div class="text-center lg:text-left ">
                   <div class="mb-10 lg:mb-0" style="text-align: center;">
-                      <!-- <h1
-                          class="mt-0 mb-3 text-3xl font-bold leading-tight sm:text-4xl text-center sm:leading-tight md:text-[40px] md:leading-tight text-white ">
-                          Start building automated serverless forms</h1> -->
-                          <h1 style="color: white;"> Ready to Partner with US? </h1>
-                          <p style="color: white;">Get Ready to create somethings GREAT! Let us Build Great Things Together!!</p>
-                          <p
-                          class="w-full text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed text-white"> 
-                             <div class="text-center">
-                              <a class="font-semibold rounded-lg mx-auto inline-flex items-center justify-center bg-white py-4 px-9 hover:bg-opacity-90" href="#">Create Your First Form</a>
+                          <h2 class="text-2xl md:text-[40px] leading-none font-bold text-white" style="line-height: 50px;">Want the Best Custom Software
+                            Development Services?</h2>
+              
+                          <div class="grid grid-cols-12 justify-center">
+                            <div class="col-span-12 sm:col-span-8 sm:col-start-3">
+                              <p class="text-lg text-white mb-12">
+                                Connect with us and redefine your software journey.
+              
+                              </p>
+                            </div>
+                          </div>
+              
+                          <div>
+                            <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex" style="background-color: #E96F1C;">Get Free Consultation</button>
+                          </div>
                     </div>
-                      </p>
-                    </div>
-                   
-                  
                   </div>
-                  <!-- <div class="text-center lg:text-right"><a
-                    class="font-semibold rounded-lg mx-auto inline-flex items-center justify-center bg-white py-4 px-9 hover:bg-opacity-90"
-                    href="#">Create Your First Form</a>
-            </div> -->
               </div>
           </div>
-          <!-- <div class="w-full px-4 lg:w-1/2">
-              <div class="text-center lg:text-right"><a
-                      class="font-semibold rounded-lg mx-auto inline-flex items-center justify-center bg-white py-4 px-9 hover:bg-opacity-90"
-                      href="#">Create Your First Form</a>
-              </div>
-          </div> -->
+         
       </div>
   </div>
-  <span class="absolute top-0 right-0 -z-10">
-      <svg width="388" height="250" viewBox="0 0 388 220" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.05" d="M203 -28.5L4.87819e-05 250.5L881.5 250.5L881.5 -28.5002L203 -28.5Z" fill="url(#paint0_linear_971_6910)"></path><defs><linearGradient id="paint0_linear_971_6910" x1="60.5" y1="111" x2="287" y2="111" gradientUnits="userSpaceOnUse"><stop offset="0.520507" stop-color="white"></stop><stop offset="1" stop-color="white" stop-opacity="0"></stop></linearGradient></defs></svg></span><span class="absolute top-0 right-0 -z-10"><svg width="324" height="250" viewBox="0 0 324 220" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.05" d="M203 -28.5L4.87819e-05 250.5L881.5 250.5L881.5 -28.5002L203 -28.5Z" fill="url(#paint0_linear_971_6911)"></path><defs><linearGradient id="paint0_linear_971_6911" x1="60.5" y1="111" x2="287" y2="111" gradientUnits="userSpaceOnUse"><stop offset="0.520507" stop-color="white"></stop><stop offset="1" stop-color="white" stop-opacity="0"></stop></linearGradient></defs></svg></span><span class="absolute top-4 left-4 -z-10"><svg width="43" height="56" viewBox="0 0 43 56" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.5"><circle cx="40.9984" cy="1.49626" r="1.49626" transform="rotate(90 40.9984 1.49626)" fill="white"></circle><circle cx="27.8304" cy="1.49626" r="1.49626" transform="rotate(90 27.8304 1.49626)" fill="white"></circle><circle cx="14.6644" cy="1.49626" r="1.49626" transform="rotate(90 14.6644 1.49626)" fill="white"></circle><circle cx="1.49642" cy="1.49626" r="1.49626" transform="rotate(90 1.49642 1.49626)" fill="white"></circle><circle cx="40.9984" cy="14.6642" r="1.49626" transform="rotate(90 40.9984 14.6642)" fill="white"></circle><circle cx="27.8304" cy="14.6642" r="1.49626" transform="rotate(90 27.8304 14.6642)" fill="white"></circle><circle cx="14.6644" cy="14.6642" r="1.49626" transform="rotate(90 14.6644 14.6642)" fill="white"></circle><circle cx="1.49642" cy="14.6642" r="1.49626" transform="rotate(90 1.49642 14.6642)" fill="white"></circle><circle cx="40.9984" cy="27.8302" r="1.49626" transform="rotate(90 40.9984 27.8302)" fill="white"></circle><circle cx="27.8304" cy="27.8302" r="1.49626" transform="rotate(90 27.8304 27.8302)" fill="white"></circle><circle cx="14.6644" cy="27.8302" r="1.49626" transform="rotate(90 14.6644 27.8302)" fill="white"></circle><circle cx="1.49642" cy="27.8302" r="1.49626" transform="rotate(90 1.49642 27.8302)" fill="white"></circle><circle cx="40.9984" cy="40.9982" r="1.49626" transform="rotate(90 40.9984 40.9982)" fill="white"></circle><circle cx="27.8304" cy="40.9963" r="1.49626" transform="rotate(90 27.8304 40.9963)" fill="white"></circle><circle cx="14.6644" cy="40.9982" r="1.49626" transform="rotate(90 14.6644 40.9982)" fill="white"></circle><circle cx="1.49642" cy="40.9963" r="1.49626" transform="rotate(90 1.49642 40.9963)" fill="white"></circle><circle cx="40.9984" cy="54.1642" r="1.49626" transform="rotate(90 40.9984 54.1642)" fill="white"></circle><circle cx="27.8304" cy="54.1642" r="1.49626" transform="rotate(90 27.8304 54.1642)" fill="white"></circle><circle cx="14.6644" cy="54.1642" r="1.49626" transform="rotate(90 14.6644 54.1642)" fill="white"></circle><circle cx="1.49642" cy="54.1642" r="1.49626" transform="rotate(90 1.49642 54.1642)" fill="white"></circle></g>
-      </svg>
-  </span>
-</section>
+
+
+
 
 <!-- CALL TO ACTION BUTTON END -->
 
@@ -1239,7 +1230,7 @@
 
 
 <!-- FOOTER SECTION     -->
-<footer class="bg-white lg:grid lg:grid-cols-5 mt-20">
+<footer class="bg-white lg:grid lg:grid-cols-5 mt-32">
   <div class="relative block h-32 lg:col-span-2 lg:h-full">
     <img
       src="Images/footer-img.jpg"
@@ -1264,6 +1255,14 @@
 
           <a href="#" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
             +91 955-882-6853
+          </a>
+        </p>
+        
+        <p>
+          <span class="text-xs uppercase tracking-wide text-gray-500"> Our Office</span>
+
+          <a href="#" class="block text-2xl font-medium text-gray-900 hover:opacity-75 sm:text-3xl">
+            Ahmedabad, India
           </a>
         </p>
 
@@ -1373,7 +1372,7 @@
 
       <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
         <div>
-          <p class="font-medium text-gray-900">Services</p>
+          <p class="font-bold text-gray-900">Services</p>
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
@@ -1399,7 +1398,7 @@
         </div>
 
         <div>
-          <p class="font-medium text-gray-900">Company</p>
+          <p class="font-bold text-gray-900">Company</p>
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
@@ -1421,9 +1420,6 @@
 </footer>
 
 <!-- FOOTER SECTION COMPLETED   -->
-
-
-
 
 
 

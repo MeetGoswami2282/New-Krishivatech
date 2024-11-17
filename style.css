@@ -18,7 +18,44 @@ body {
   font-family: 'Mona Sans', sans-serif;
   font-weight: 700; /* Adjust weight as needed */
 }
-/* Apply the font to other elements as needed */
+
+
+.ani{
+font-size: 50px;
+/* position: relative; */
+color: #000;
+top: 30%;
+left: 20%; 
+text-align:center;
+font-family: inter !important;
+}
+.ani::after{
+content: ' ';
+/* position: absolute; */
+/* padding-left: 30px; */
+position: relative;
+color: #E96F1C;
+width: 526px;
+/* margin-left: 20px; */
+text-align: start;
+/* background: #000; */
+animation: textrotate 5s linear infinite;
+-webkit-animation: textrotate 5s linear infinite;
+}
+@keyframes textrotate{
+0%{
+content: ' Software Development';
+}
+25%{
+content: 'App Development';
+}
+50%{
+content: 'Web Development';
+}
+100%{
+content: ' UI/UX Design';
+}
+}
 
 
 
@@ -229,7 +266,17 @@ a{
    font-weight: 700;
     font-size: 20px
   }
+  .offering p{
+    font-size: 18px;
+  }
 
+  /* .offering:hover{
+    background: linear-gradient(-45deg, #fd8545, #e95e20);
+    
+  } */
+  .offering :hover h1{
+    color: #42db87;
+  }
 /* TECHNOLOGY STACK  */
 .icon-grid {
 display: flex;
