@@ -9,7 +9,15 @@
     font-family: "Poppins", sans-serif; */
     
 }
-
+.get-started{
+  background-color: #E96F1C;
+}
+.get-started:hover{
+   
+  /* background-color: #2EE59D; */
+  box-shadow: 0px 15px 20px rgba(224, 129, 14, 0.4);
+  color: #fff;
+}
 body {
   font-family: 'Mona Sans', sans-serif;
 }
