@@ -5,9 +5,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box;
-    font-family: "Poppins", sans-serif; */
-    
+    box-sizing: border-box;
+    font-family: 'Mona Sans', sans-serif!important    
 }
 .get-started{
   background-color: #E96F1C;
@@ -22,14 +21,45 @@ body {
   font-family: 'Mona Sans', sans-serif;
 }
 
+/* NAVBAR SECTION */
+
+.navigation-bar{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+/* WHATS APP ICON  SECTION */
+
+.whatsapp-icon{
+  width: 50px; color: white;
+}
+
+
+/* HERO SECTION  */
+
+.square-boxes svg{
+  position: sticky;
+  top: 0;
+  margin-bottom: 239px;
+}
+.tech-titans{
+  position: relative; bottom: 30px !important
+}
 .hero h1 {
   font-family: 'Mona Sans', sans-serif;
   font-weight: 700; /* Adjust weight as needed */
+}
+.meeting{
+  background-color: #E96F1C;
+}
+span{
+  color: #E96F1C;
 }
 
 
 .ani{
 font-size: 50px;
+font-family: 'Mona Sans', sans-serif !important;
 /* position: relative; */
 color: #000;
 top: 30%;
@@ -65,9 +95,18 @@ content: ' UI/UX Design';
 }
 }
 
+/* SERVICES SECTION */
+
+.offering p{
+  color: #6C7A87;
+}
 
 
+/* PORTFOLION SECTION */
 
+.portfolio-part,  .testimonial-part{
+  margin-top: 70px;
+}
 /* MAIN BUTTON */
 
 ::before,
