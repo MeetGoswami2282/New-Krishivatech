@@ -1,36 +1,4 @@
 
-
-
-
-// MILESTONE NUMBER
-
-document.addEventListener('DOMContentLoaded', () => {
-  const counters = document.querySelectorAll('.count');
-  const speed = 100; // Speed of counting
-
-  counters.forEach(counter => {
-      const updateCount = () => {
-          const target = +counter.getAttribute('data-count');
-          const count = +counter.innerText;
-
-          const increment = target / speed;
-
-          if (count < target) {
-              counter.innerText = Math.ceil(count + increment);
-              setTimeout(updateCount, 50);
-          } else {
-              counter.innerText = target;
-          }
-      };
-
-      updateCount();
-  });
-});
-
-
-
-
-
 var sliderCounter = 0;
 var sliderContent = [
   "Web Development",
