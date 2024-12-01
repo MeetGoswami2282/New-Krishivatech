@@ -1,4 +1,8 @@
 
+
+document.querySelector('.hamburger').addEventListener('click', () => {
+  document.querySelector('.nav-links').classList.toggle('show');
+});
 var sliderCounter = 0;
 var sliderContent = [
   "Web Development",
