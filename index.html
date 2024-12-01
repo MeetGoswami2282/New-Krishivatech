@@ -10,31 +10,19 @@
       <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
    </head>
    <!-- NAVIGATION BAR -->
-   <!-- <nav class="navigation-bar mx-auto xl:w-10/12 rounded-xl mt-5 top-0 py-3 p-4 flex justify-between  place-items-center">
-      <div class="logo">
-         <img src="Images/Krishiva-Logo.svg" class="h-15 ml-4">
-      </div>
-      <ul class="md:flex space-x-8 text-black text-lg font-medium">
-         <li class="text-black "><a href="#service-section" class="hover:text-orange-500">Services</a></li>
-         <li class="text-black"><a href="portfolio.html" class="hover:text-orange-500">Portfolio</a></li>
-         <li class="text-black"><a href="#technology-section " class="hover:text-orange-500">Technology</a></li>
-         <li class="text-black"><a href="#testimonial-section" class="hover:text-orange-500">Testimonial</a></li>
-         <li class="text-black"><a href="Contactus.html" class="hover:text-orange-500">Contact Us</a></li>
-      </ul>
-      <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex"><a href="Contactus.html"> Let's Connect </a></button>
-   </nav> -->
+
    
   <nav class="navbar mx-auto xl:w-10/12 rounded-xl mt-5 top-0 py-3 p-4  ">
     <div class="logo">
-      <img src="Images/Krishiva-Logo.svg" class="h-15 ml-4" alt="Logo" />
+     <a href="index.html"><img src="Images/Krishiva-Logo.svg" class="h-15 ml-4" alt="Logo" /></a> 
     </div>
     <ul class="nav-links">
-      <li><a href="#" class="text-lg">Services</a></li>
-      <li><a href="#" class="text-lg">Portfolio</a></li>
-      <li><a href="#" class="text-lg">Technology</a></li>
-      <li><a href="#" class="text-lg">Testimonial</a></li>
-      <li><a href="#" class="text-lg">Contact Us</a></li>
-      <li>      <button class=" get-started font-bold  text-white px-8 py-3 hover:bg-opacity-90 duration-300 rounded inline-flex"><a class="conta" style="color: white;" href="Contactus.html"> Let's Connect </a></button>
+      <li><a href="#service-section" class="text-lg">Services</a></li>
+      <li><a href="portfolio.html" class="text-lg">Portfolio</a></li>
+      <li><a href="#technology-section" class="text-lg">Technology</a></li>
+      <li><a href="#testimonial-section" class="text-lg">Testimonial</a></li>
+      <li><a href="#Contactus.html" class="text-lg">Contact Us</a></li>
+      <li>      <button class=" get-started font-bold  text-white px-8 py-3  hover:bg-opacity-90 duration-300 rounded inline-flex"><a class="conta" style="color: white; font-weight: 700;" href="Contactus.html"> Let's Connect </a></button>
       </li>
       <!-- <li><a href="#" class="connect-btn">Let's Connect</a></li> -->
     </ul>
@@ -46,94 +34,8 @@
   </nav>
 
   <script src="script.js"></script>
-</body>
-</html>
 
-   <style>
-
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* padding: 10px 20px; */
   
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) 
-
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-}
-
-.logo img {
-  height: 70px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links li {
-  display: flex;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-}
-
-.connect-btn {
-  background-color: orange;
-  color: white;
-  padding: 8px 16px;
-  border-radius: 4px;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 4px;
-}
-
-.hamburger span {
-  width: 25px;
-  height: 3px;
-  background-color: black;
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: white;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    width: 200px;
-    border-radius: 8px;
-    padding: 10px;
-  }
-
-  .nav-links.show {
-    display: flex;
-    margin-top: 30px;
-        z-index: 1000
-  }
-
-  .hamburger {
-    display: flex;
-  }
-}
-
-
-   </style>
 
    <div class="floating_btn fixed flex items-center justify-center flex-col">
       <a target="_blank" href="https://api.whatsapp.com/send?phone=9558826853">
@@ -657,7 +559,7 @@
                <div class="col-span-12 lg:col-span-4 lg:col-start-8">
                   <div class="flex justify-center items-end h-full">
                      <img
-                        src="https://cdn.easyfrontend.com/pictures/featured/three.png"
+                        src="Images/standard-quality-control-collage.jpg"
                         alt=""
                         class="max-w-full h-auto rounded-lg mt-12 md:mt-0"
                         />
@@ -822,7 +724,7 @@
                         <div class="flex items-center gap-4">
                            <img
                               alt=""
-                              src="/Images/avtar-boy.png"
+                              src="Images/avtar-boy.png"
                               class="size-14 rounded-full object-cover"
                               />
                            <div>
@@ -1024,6 +926,7 @@
       </div>
    </footer>
    <!-- FOOTER SECTION COMPLETED   -->
+    
    </body>
 </html>
 
